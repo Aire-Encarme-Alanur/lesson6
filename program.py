@@ -5,8 +5,8 @@ app = Flask(__name__)
 def hello_world():
     return 'Base action'
 
-@app.route('/v2')
-def v2():
+@app.route('/v3')
+def v3():
     return 'Second action'
 
 @app.route('/oleynik')

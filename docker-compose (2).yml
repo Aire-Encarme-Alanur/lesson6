@@ -10,5 +10,5 @@ services:
   uses: docker/build-push-action@v2.1.0
 
 - name: Remote SSH Commands
-uses: fifsky/ssh-action@v0.0.4
+  uses: fifsky/ssh-action@v0.0.4
 
