@@ -6,5 +6,5 @@ def hello_world():
     return 'Base action'
 
 @app.route('/oleynik')
-def oleynik():
+def v2():
     return 'Hello from CI with GitHub Actions by Oleynik'
