@@ -8,3 +8,4 @@ def hello_world():
 @app.route('/oleynik')
 def oleynik():
     return 'Hello from CI with GitHub Actions by Oleynik'
+ 
