@@ -1,12 +1,12 @@
 FROM python
 
-WORKDIR /src_trm
+WORKDIR /oleynik_trm
 
-COPY ./requirements.txt /src_trm/requirements.txt
+COPY ./requirements.txt /oleynik_trm/requirements.txt
 
 RUN pip install -r requirements.txt
 
-COPY ./ /src_trm/
+COPY ./ /oleynik_trm/
 
 ENV FLASK_APP program.py
 
