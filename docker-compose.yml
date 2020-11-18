@@ -5,3 +5,9 @@ services:
     image: 00111199900/flask_app_example
     ports: 
     - 5020:5000
+      
+  - name: Remote SSH Commands
+    uses: fifsky/ssh-action@v0.0.4
+
+  - name: Build and push Docker images
+    uses: docker/build-push-action@v2.1.0
